@@ -9,7 +9,7 @@ observations from lidar sensors and the camera. In this scenario, the map is alr
 	Road markings: This layer contains information about road markings, including road markings for parking spaces.
 	Parked cars: This layer contains information about parking spaces that are already occupied.
 
-![Image](https://github.com/user-attachments/assets/cc88a5af-dee2-4c05-a5dd-bf4d7cdf36ff
+![Image](https://github.com/user-attachments/assets/cc88a5af-dee2-4c05-a5dd-bf4d7cdf36ff)
 
 The table specifies the start and end positions of the segment, as well as the properties of the segment, such as the speed limit.
 
@@ -36,7 +36,7 @@ The way the vehicle follows the reference path to a specific empty parking space
 
 The estimated time until the vehicle reaches its destination is approximately 40 seconds.
 
-![Image](https://github.com/user-attachments/assets/7ec06b93-1fcd-483e-be34-c773663f3f63)
+![Image](https://github.com/user-attachments/assets/a1bca004-3f6d-4b10-a38d-4216d25483fc)
 
 The automated parking lots bring numerous benefits, including increased efficiency, time and space savings, reduced traffic and emissions, thus facilitating a more sustainable approach to urban mobility. However, their implementation requires adequate infrastructure and significant investments in technology.
 
