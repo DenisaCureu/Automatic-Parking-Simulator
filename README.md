@@ -1,7 +1,7 @@
 # Automatic-Parking-Simulator
 Matlab
 
-The full description of the project is presented in the document "Automatic Parking"
+The full description of the project is presented in the document "Automatic Parking.pdf"
 
 The environmental model is a map of the environment. This map includes available and occupied parking spaces, road markings, and obstacles such as pedestrians or other vehicles. Such a map is usually built using Simultaneous Localization and Mapping (SLAM) by integrating
 observations from lidar sensors and the camera. In this scenario, the map is already provided. The map used is composed of three layers of occupancy grids:
