@@ -18,11 +18,13 @@ The table specifies the start and end positions of the segment, as well as the p
 Planning is a hierarchical process, each successive layer being
 responsible for a more precise task. The behavior layer is at the top of this stack. Block Behavior Planner
 triggers a sequence of navigation tasks based on the global route plan, providing an intermediate objective and configuration for the Motion Planning and Trajectory Generation blocks. Each path segment is navigated using these steps:
-•	Motion planning: Plan a feasible path through the environment map using the optimal Fast Random Tree Exploration (RRT*) algorithm (pathPlannerRRT).
-•	Trajectory Generation: Smooth the reference path by matching splines, to it using the Path Smoother Spline block. It then converts the smoothed path to a trajectory by generating a velocity profile using the Velocity Profiler block.
-•	Vehicle control: HelperPathAnalyzer provides the signal
-reference for the Vehicle Controller subsystem that controls the direction and speed of the vehicle.
-•	Goal check: whether the vehicle has reached the final position.
+  •	Motion planning: Plan a feasible path through the environment map using the optimal Fast Random Tree Exploration (RRT*) algorithm (pathPlannerRRT).
+  
+  •	Trajectory Generation: Smooth the reference path by matching splines, to it using the Path Smoother Spline block. It then converts the smoothed path to a trajectory by generating a velocity profile using the Velocity Profiler block.
+  
+  •	Vehicle control: HelperPathAnalyzer provides the signal reference for the Vehicle Controller subsystem that controls the direction and speed of the vehicle.
+  
+  •	Goal check: whether the vehicle has reached the final position.
 
 ![Image](https://github.com/user-attachments/assets/abc1ba61-3e1a-4861-8a29-ff036315c671)
 
